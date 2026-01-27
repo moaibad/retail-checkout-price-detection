@@ -43,7 +43,7 @@ Setelah klik deteksi akan tampil hasil gambar yang telah dilakukan deteksi beser
 
 ### 1. Clone & Pindahkan ke htdocs
 ```bash
-git clone <repo-url>
+git clone https://github.com/moaibad/retail-checkout-price-detection.git
 cp -r retail-checkout-price-detection /xampp/htdocs/
 ```
 
