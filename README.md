@@ -26,6 +26,12 @@ Setelah klik deteksi akan tampil hasil gambar yang telah dilakukan deteksi beser
 - MySQL
 - Bootstrap 3
 
+## Dataset & Model
+
+- **Dataset**: [Grocery Dataset](https://universe.roboflow.com/new-workspace-wfzw3/grocery-dataset-q9fj2) dari Roboflow
+- **Base Model**: YOLOv7
+- **Epochs**: 10
+
 ## Struktur Proyek
 
 ```
@@ -63,11 +69,33 @@ CREATE TABLE produk (
   harga INT NOT NULL
 );
 
--- Contoh data
+-- Data produk (25 produk yang didukung model)
 INSERT INTO produk (nama, harga) VALUES
-('Fanta 250ml', 50000),
-('Lifebuoy Total Protect Soap 96gm', 25000),
-('LU Oreo Biscuit 19gm', 6000);
+('Bisconni Chocolate Chip Cookies 46.8gm', 15000),
+('Coca Cola Can 250ml', 8000),
+('Colgate Maximum Cavity Protection 75gm', 18000),
+('Fanta 250ml', 7000),
+('Fresher Guava Nectar 500ml', 12000),
+('Fruita Vitals Red Grapes 200ml', 10000),
+('Islamabad Tea 238gm', 35000),
+('Kolson Slanty Jalapeno 18gm', 5000),
+('Kurkure Chutney Chaska 62gm', 8000),
+('LU Candi Biscuit 60gm', 7000),
+('LU Oreo Biscuit 19gm', 6000),
+('LU Prince Biscuit 55.2gm', 7500),
+('Lays Masala 34gm', 10000),
+('Lays Wavy Mexican Chili 34gm', 10000),
+('Lifebuoy Total Protect Soap 96gm', 12000),
+('Lipton Yellow Label Tea 95gm', 22000),
+('Meezan Ultra Rich Tea 190gm', 38000),
+('Peek Freans Sooper Biscuit 13.2gm', 3000),
+('Safeguard Bar Soap Pure White 175gm', 15000),
+('Shezan Apple 250ml', 9000),
+('Sunsilk Shampoo Soft - Smooth 160ml', 35000),
+('Super Crisp BBQ 30gm', 5000),
+('Supreme Tea 95gm', 20000),
+('Tapal Danedar 95gm', 21000),
+('Vaseline Healthy White Lotion 100ml', 32000);
 ```
 
 ### 4. Konfigurasi Path
